@@ -24,13 +24,15 @@
     margin-top: 0.8rem; /*espaçamento entre Proffy e texto abaixo na logo*/
 }
 
-.hero-image {  /* hero-image é a classe definida em index que está dentro do container */
+.hero-image {  /* hero-image é a classe definida em index que está dentro do
+  container */
     width: 100%;
 }
 
-.buttons-container { 
+.buttons-container {
     display: flex; /*coloca todos os elementos um ao lado do outro */
-    justify-content: center;/*centraliza os buttons. mas para isso pra precisa do display flex*/
+    justify-content: center;/*centraliza os buttons. mas para isso pra precisa
+                                                            do display flex*/
     margin: 3.2rem 0; /*espaçamento*/
 }
 
@@ -38,7 +40,7 @@
     width: 30rem;
     height: 10.4rem;
     /* background-color: green; */
-    border-radius: 2.0.rem;  /*arredondamento das bordas*/ 
+    border-radius: 2.0.rem;  /*arredondamento das bordas*/
     margin-right: 1.6rem;
 
     font: 700 2.4rem Archivo;
@@ -63,9 +65,13 @@
     background: var(--color-primary-lighter);
 }
 
-.buttons-container a.study:hover { /*as propriedades de dentros das chaves só serão aplicadas quando o mouse estiver em estado de hover "passou por dentro do container"*/
+
+.buttons-container a.study:hover { /*as propriedades de dentros das chaves só
+   serão aplicadas quando o mouse estiver em estado de hover "passou por dentro
+    do container"*/
     background: var(--color-primary-light);
 }
+
 
 .buttons-container a.give-classes {
     background: var(--color-secondary);
@@ -76,6 +82,8 @@
 .buttons-container a.give-classes:hover {
     background: var(--color-secondary-dark);
 }
+
+
 
 .total-connections {
     font-size: 1.8rem;
@@ -93,7 +101,7 @@
     :root {
         font-size: 40%;
     }
-    
+
 }
 
 
@@ -107,7 +115,7 @@
         "proffy image image"
         "button button texting";
         column-gap: 87px;
-        row-gap: 86px;       
+        row-gap: 86px;
     }
 
     .logo-container {
