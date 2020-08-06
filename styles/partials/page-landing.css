@@ -97,7 +97,7 @@
 }
 
 
-@media (min-width: 1100px){ /*se a largura mínima for de 1100px pra cima, executa essa regra de dentro das chaves (que é a largura mínima pra desktop)*/
+@media (min-width: 1100px){ /* se a largura mínima for de 1100px pra cima, executa essa regra de dentro das chaves (que é a largura mínima pra desktop)*/
     #page-landing #container {
         max-width: 1100px;
         display: grid;
@@ -138,3 +138,5 @@
         font-size: 1.2rem;
     }
 }
+
+/*adicionando comentário*/
