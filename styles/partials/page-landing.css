@@ -1,0 +1,140 @@
+
+
+#page-landing {
+    background: var(--color-primary);
+}
+
+#page-landing #container {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img{ /*tamanho do logo Proffy*/
+    height: 10rem;
+}
+
+.logo-container {
+    text-align: center; /*alinha o texto */
+    margin-bottom: 3.2rem; /*espaço entre a logo e a imagem*/
+}
+
+.logo-container h2 {
+    font-weight: 500; /*Peso da fonte da logo*/
+    font-size: 3.6rem; /*tamanho da fonte da logo*/
+    line-height: 4.6rem; /*altura da alinha do texto */
+    margin-top: 0.8rem; /*espaçamento entre Proffy e texto abaixo na logo*/
+}
+
+.hero-image {  /* hero-image é a classe definida em index que está dentro do container */
+    width: 100%;
+}
+
+.buttons-container { 
+    display: flex; /*coloca todos os elementos um ao lado do outro */
+    justify-content: center;/*centraliza os buttons. mas para isso pra precisa do display flex*/
+    margin: 3.2rem 0; /*espaçamento*/
+}
+
+.buttons-container a {
+    width: 30rem;
+    height: 10.4rem;
+    /* background-color: green; */
+    border-radius: 2.0.rem;  /*arredondamento das bordas*/ 
+    margin-right: 1.6rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none; /*remove sublinhado*/
+
+    transition: background 0.5s;
+
+    color: var(--color-button-txt);
+}
+
+.buttons-container a img { /*largura da imagem do container a*/
+    width: 4rem;
+    margin-right: 2.4rem; /*espaçamento entre ícone e letra (nos botões)*/
+}
+
+.buttons-container a.study {
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.study:hover { /*as propriedades de dentros das chaves só serão aplicadas quando o mouse estiver em estado de hover "passou por dentro do container"*/
+    background: var(--color-primary-light);
+}
+
+.buttons-container a.give-classes {
+    background: var(--color-secondary);
+    margin-right: 0rem;
+
+}
+
+.buttons-container a.give-classes:hover {
+    background: var(--color-secondary-dark);
+}
+
+.total-connections {
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-connections img { /*espaço entre texto e o coração*/
+    margin-left: 0.8rem;
+}
+
+@media (max-width: 699px) {
+    :root {
+        font-size: 40%;
+    }
+    
+}
+
+
+@media (min-width: 1100px){ /*se a largura mínima for de 1100px pra cima, executa essa regra de dentro das chaves (que é a largura mínima pra desktop)*/
+    #page-landing #container {
+        max-width: 1100px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr; /* dividindo em 3 colunas. Usa-se fração quando quiser deixar por igual. mas pode usar porcentagem ou 100px por exemplo (valor fixo)*/
+        grid-template-rows: 350px 1fr;
+        grid-template-areas:
+        "proffy image image"
+        "button button texting";
+        column-gap: 87px;
+        row-gap: 86px;       
+    }
+
+    .logo-container {
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center;
+        margin: 0;
+    }
+
+    .logo-container img {
+        height: 127px;
+    }
+
+    .hero-image {
+        grid-area: image;
+        height: 350px;
+    }
+
+    .buttons-container {
+        grid-area: button;
+        justify-content: flex-start;
+        margin:0;
+    }
+
+    .total-connections {
+        grid-area: texting;
+        justify-self: end;
+        font-size: 1.2rem;
+    }
+}
