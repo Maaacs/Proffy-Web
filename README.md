@@ -16,7 +16,6 @@ A proposta do projeto é uma aplicação que conecte professor e aluno. Na plata
 
 ---
 
-
 ## ⌨ Como executar o projeto
 
 ```bash
