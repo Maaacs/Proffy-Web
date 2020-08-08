@@ -10,9 +10,13 @@
 
 ## 📖 Sobre
 
-Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 3 a 9 de Agosto de 2020.
+Este é um projeto desenvolvido durante a **[Next Level Week](https://
+  nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/
+    Rocketseat)** durante os dias 3 a 9 de Agosto de 2020.
 
-A proposta do projeto é uma aplicação que conecte professor e aluno. Na plataforma será possível encontrar alunos para o que você lecion ou encontrar o professor para a matéria desejada.
+A proposta do projeto é uma aplicação que conecte professor e aluno.
+Na plataforma será possível encontrar alunos para o que você lecion ou
+encontrar o professor para a matéria desejada.
 
 ---
 
@@ -26,6 +30,8 @@ git clone https://github.com/Maaacs/Proffy
 cd Proffy
 ```
 
-Pode usar qualquer extensão ou ferramenta no seu editor para criar um servidor local, como por exemplo o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+Pode usar qualquer extensão ou ferramenta no seu editor para criar um servidor
+local, como por exemplo o [Live Server]
+(https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ---
