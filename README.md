@@ -12,7 +12,7 @@
 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 3 a 9 de Agosto de 2020.
 
-A proposta do projeto é uma aplicação que conecte professor e aluno. Na plataforma será possível encontrar alunos para o que você lecion ou encontrar o professor para a matéria desejada.
+A proposta do projeto é uma aplicação que conecte professor e aluno. Na plataforma é possível encontrar alunos para o que você leciona ou encontrar o professor para a matéria desejada.
 
 ---
 
