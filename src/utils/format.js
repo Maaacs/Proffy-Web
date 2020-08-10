@@ -23,7 +23,7 @@ const weekdays = [
 
 //funcionalidades
 
-function getSubjects(subjectNumber) {
+function getSubject(subjectNumber) {
     const position = +subjectNumber -1
     return subjects[position]
 }
@@ -37,6 +37,6 @@ function convertHoursToMinutes(time) {
 module.exports = {
     subjects,
     weekdays,
-    getSubjects,
+    getSubject,
     convertHoursToMinutes
 }

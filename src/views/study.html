@@ -57,7 +57,7 @@
 
                       </select>
                   </div>
-                  
+
                   <div class="input-block">
                       <label for="time">Hora</label>
                       <input name="time" id="time" type="time" value = "{{filters.time}}">
@@ -67,12 +67,13 @@
           </div>
         </header>
         <main>  
+
             {% if proffys == "" %}
-            <p class="no-results">Nenhum professor encontrado com a sua pesquisa</p>
+                <p class="no-results">Nenhum professor encontrado com a sua pesquisa</p>
             {% else %}
 
             {%for proffy in proffys %}
-            <article class="teacher-item">
+                <article class="teacher-item">
 
                 <header>
                     <img src="{{proffy.avatar}}" alt="{{proffy.name}}">
@@ -91,7 +92,7 @@
                     <img src="/images/icons/whatsapp.svg" alt="whatsapp">Entrar em contato    
                     </a>
                 </footer>
-            </article>
+                </article>
             {%endfor%}
 
             {% endif %}

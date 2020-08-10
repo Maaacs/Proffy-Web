@@ -138,6 +138,12 @@
   background: var(--color-secondary-dark); /*escuresse botaão do wpp*/
 }
 
+#page-study main .no-results { /*ajuste da mensagem de professor não encontrado no filtro*/
+  max-width: 300px;
+  margin: 12rem auto;
+  text-align: center;
+}
+
 /*daqui pra frente será feita a desktop version*/
 @media (min-width: 700px){ /*media query*/
     #page-study #container {
