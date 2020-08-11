@@ -6,8 +6,7 @@ document.querySelector("#add-time")
 // Executar uma ação
 function cloneField(){
   //Duplicar campos. Mas que campos?
-  const newFieldContainer = document.querySelector('.schedule-item')
-  .cloneNode(true)
+  const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
 
   // limpar os novos campos: Que campos?
   const fields = newFieldContainer.querySelectorAll('input')//para limpar os
